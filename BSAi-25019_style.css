@@ -1,0 +1,470 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Segoe UI", inherit;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.hmtxt {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+
+.abt {
+  position: absolute;
+  left: 20px;
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.orpk {
+  position: absolute;
+  right: 50px;
+  color: white;
+   font-family: 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  
+}
+.abt:hover,.orpk:hover {
+  color: rgba(2, 138, 2, 0.728);
+  transition: color 1s ease; 
+}
+
+.mdtxt {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wlm {
+  font-size: 50px;
+  font-weight:bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 25px;
+  color: white;
+  margin-top: 15px;
+  opacity: 1;
+}
+video {
+  z-index: -1;
+}
+.imgk {
+  position: fixed;       
+  top: 0;
+  left: 0;
+  object-fit: cover;     
+  z-index: -1;           
+}
+
+.header {
+  display: flex;
+  align-items: center; 
+  background: rgba(234, 234, 234, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:15%;
+  width: 100%;
+}
+
+.header .ITUlogo img {
+  height: 75px; 
+  margin: 0;
+  padding: 0;
+}
+.header .Links {
+  position: absolute; 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+}
+.header .Links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none ;
+  font-weight: bold;
+  margin: 0 15px; 
+}
+.header .Links a:hover {
+  text-decoration: underline;
+}
+
+
+.wrtabt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}           
+  
+.abt-box {
+  background: rgba(0, 0, 0, 0.5);              
+  border: 3px solid rgba(255, 255, 255, 0.5);  
+  border-radius: 20px;                         
+  padding: 100px 335px;                           
+  position: absolute;
+  top: 5%; 
+  left: -3%;          
+  z-index: -1;         
+}
+.wrtabt h1  {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight:bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family:  sans-serif;
+ text-decoration: underline;
+}
+
+.wrtabt p {
+  font-size: 15px;
+  color: white;
+  font-family: "Cambria", serif;
+  font-style: italic;
+
+}
+.Punjab {
+  margin-top: 120px;       
+  width: 100%;
+  overflow-x: hidden;      
+  scroll-behavior: smooth; 
+  margin-bottom: 120px;    
+}
+.Punjab1,.Punjab2,.Punjab3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px auto;
+  width: 85%;
+  gap: 40px;
+}
+
+
+.Punjab1 img {
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.Punjab1 h2,.Punjab1 p {
+  width: 55%;
+}
+.Punjab2 {
+  flex-direction: row-reverse; 
+}
+.Punjab2 img {
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.Punjab2 h2,.Punjab2 p {
+  width: 55%;
+}
+
+
+.Punjab3 {
+  flex-direction: column;
+  text-align: center;
+}
+.Punjab3 img {
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
+}
+
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid rgba(0, 128, 0, 0.6);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #000000;
+}
+
+
+.footerpunjab {
+  background-color: #0c7a21;        
+  color: white;                     
+  text-align: center;              
+  padding: 25px 0;                  
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;              
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footerpunjab span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.9;
+}
+
+
+.Sindh {
+  margin-top: 120px;       
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  margin-bottom: 120px;
+}
+
+
+.Sindh1,.Sindh2,.Sindh3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px auto;
+  width: 85%;
+  gap: 40px;
+}
+
+
+.Sindh1 {
+  flex-direction: row-reverse;
+}
+.Sindh1 img {
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.Sindh1 h2,.Sindh1 p {
+  width: 55%;
+}
+
+
+.Sindh2 {
+  flex-direction: row;
+}
+.Sindh2 img {
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.Sindh2 h2,.Sindh2 p {
+  width: 55%;
+}
+
+
+.Sindh3 {
+  flex-direction: column;
+  text-align: center;
+}
+.Sindh3 img {
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
+}
+
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid rgba(0, 128, 0, 0.6);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #030101;
+}
+
+
+.footersindh {
+  background-color: #ff00d9;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footersindh span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.9;
+}
+
+
+.footerKPK {
+  background-color: #ddff00;        
+  color: rgb(0, 0, 0);                     
+  text-align: center;               
+  padding: 25px 0;                 
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;               
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footerKPK span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.9;
+}
+
+
+.footergilgit {
+  background-color: #00d9ff;        
+  color: rgb(0, 0, 0);                     
+  text-align: center;               
+  padding: 25px 0;                  
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;             
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footergilgit span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.9;
+}
+
+
+.footerbaloch {
+  background-color: #ff6200;        
+  color: rgb(0, 0, 0);                     
+  text-align: center;               
+  padding: 25px 0;                  
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;               
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footerbaloch span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.9;
+}
+
+
+.footercap {
+  background-color: #0003af;        
+  color: rgb(255, 255, 255);                     
+  text-align: center;              
+  padding: 25px 0;                  
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;              
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footercap span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.9;
+}
+
+
+.ytvd {
+  text-align: center;
+  margin-top: 150px;
+  color: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.vd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.ourpkpg {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.8;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.footerourpk {
+  background-color: #01430d;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  font-family: Georgia;
+  font-size: 18px;
+  margin-top: 100px;
+}
+
+.footerourpk a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.footerourpk a:hover {
+  text-decoration: underline;
+}
