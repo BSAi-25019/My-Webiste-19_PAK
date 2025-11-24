@@ -47,6 +47,7 @@ html, body {
 .wlm {
   font-size: 50px;
   font-weight:bold;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
